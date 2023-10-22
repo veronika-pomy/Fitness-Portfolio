@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30rem;
+    height: 3rem;
+}
+
+.left-hero {
+    padding: 1.5rem 2rem;
+    flex: 3;
+}
+
+.right-hero {
+    flex: 1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: var(--lightgray);
+}
+
+.menu > li {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.menu > li:hover {
+    color: var(--chili);
+}
