@@ -4,7 +4,7 @@
 }
 
 .logo {
-    width: 30rem;
+    width: 10rem;
     height: 3rem;
 }
 
@@ -21,15 +21,15 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-    color: var(--lightgray);
+    color: var(--darkgrey);
 }
 
 .menu > li {
     cursor: pointer;
     font-weight: 500;
-    font-size: larger;
+    font-size: large;
 }
 
 .menu > li:hover {
-    color: var(--chili);
+    color: var(--purple);
 }

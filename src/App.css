@@ -1,11 +1,11 @@
 :root {
     --lightgray: #D9D9D9;
     --gray: #9c9c9c;
-    --chili: #E3170A;
+    --purple: #44007a;
     --darkGrey: #464D53;
     --infoCard: #656565;
     --planCard: linear-gradient(210.41deg, #E3170A 1.14%, #E63B2E 100.75%);
-    --appColor:  #3c3f45;
+    --appColor: #fdf7f2;
   }
 
   .app-container {

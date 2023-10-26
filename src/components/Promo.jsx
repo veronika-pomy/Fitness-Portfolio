@@ -4,7 +4,7 @@ const Promo = () => {
   return (
     <div className="promo">
         <div></div>
-        <span>Get Fit, Your Way</span>
+        <span>Fitness, Your Way</span>
     </div>
   )
 }
