@@ -1,0 +1,19 @@
+.promo-headline {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--purple);
+    text-overflow: inherit;
+    margin-top: 6rem;
+}
+
+.promo-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 90%;
+}

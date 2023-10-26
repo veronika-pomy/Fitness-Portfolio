@@ -1,0 +1,22 @@
+.experience {
+    display: flex;
+    gap: 6rem;
+}
+
+.experience > div {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.experience > div > span:nth-of-type(1) {
+    color: var(--darkgrey);
+    font-size: 1.5rem;
+}
+
+.experience > div > span:nth-of-type(2) {
+    color: var(--purple);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
