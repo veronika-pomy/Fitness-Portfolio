@@ -1,4 +1,6 @@
 import React from 'react';
+import Headshot from '../assets/imgs/headshot.png';
+import Background from '../assets/imgs/hero-background.png';
 import '../style/Hero.css'
 import Header from'./Header.jsx';
 import Promo from'./Promo.jsx';
@@ -26,6 +28,17 @@ const Hero = () => {
             <span>Personal</span>
             <span>Trainer</span>
           </div>
+
+          <img 
+            src={Headshot} 
+            alt="Personal trainer headshot" 
+            className="hero-img" 
+          />
+          <img 
+            src={Background} 
+            alt="Mesh background PNG Designed By 699pic, web link attributed in the readme file" 
+            className="hero-img-background" 
+          />
         </div>
     </div>
   )
