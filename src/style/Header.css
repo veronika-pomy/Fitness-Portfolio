@@ -8,23 +8,11 @@
     height: 4rem;
 }
 
-.left-hero {
-    padding: 1.5rem 2rem;
-    flex: 3;
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-}
-
-.right-hero {
-    flex: 1;
-}
-
 .menu {
     list-style: none;
     display: flex;
     gap: 2rem;
-    color: var(--darkgrey);
+    color: var(--darkGrey);
     align-items: center;
 }
 
@@ -36,4 +24,29 @@
 
 .menu > li:hover {
     color: var(--purple);
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: transparent;
+    width: fit-content;
+    padding: 1rem;
+    position: absolute;
+    right: 3rem;
+    top: 9rem;
+}
+
+.hero-icon {
+    color: var(--certificate);
+    font-size: 3rem;
+}
+
+.certificate > span {
+    color: var(--certificate);
+    font-size: 1rem;
+    letter-spacing: 0.1em;
 }

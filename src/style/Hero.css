@@ -2,3 +2,24 @@
     display: flex;
     justify-content: space-between;
 }
+
+.left-hero {
+    padding: 1.5rem 2rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-hero {
+    flex: 1;
+    position: relative;
+    background-color: var(--purple);
+}
+
+.btn-main {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: var(--darkGrey);
+}

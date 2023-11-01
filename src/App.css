@@ -2,11 +2,15 @@
     --lightgray: #D9D9D9;
     --gray: #9c9c9c;
     --purple: #44007a;
-    --darkGrey: #464D53;
+    --darkGrey: #1b1c1d;
     --infoCard: #656565;
     --planCard: linear-gradient(210.41deg, #E3170A 1.14%, #E63B2E 100.75%);
     --appColor: #fdf7f2;
     --promoColor:  aliceblue;
+    --glow-text: #fff;
+    --glow-shadow-purple: #54306e66;
+    --glow-shadow-gray: #38363966;
+    --certificate: #edd66f;
   }
 
   .app-container {
@@ -28,4 +32,20 @@
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--purple);
+  }
+
+  .btn {
+    background-color: var(--appColor);
+    padding: 1rem;
+    font-weight: bold;
+    font-size: large;
+    border: 4px solid transparent;
+    transition: 300ms all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn:hover {
+    cursor: pointer;
   }
