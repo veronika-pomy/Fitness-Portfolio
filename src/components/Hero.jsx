@@ -34,11 +34,11 @@ const Hero = () => {
             alt="Personal trainer headshot" 
             className="hero-img" 
           />
-          <img 
+          {/* <img 
             src={Background} 
             alt="Mesh background PNG Designed By 699pic, web link attributed in the readme file" 
             className="hero-img-background" 
-          />
+          /> */}
         </div>
     </div>
   )

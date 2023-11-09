@@ -1,0 +1,62 @@
+.programs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;   
+}
+
+.programs-header {
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: var(--purple);
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+.programs-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.program-category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--purple);
+    color: var(--appColor);
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.program-category:hover {
+    background: var(--infoCard);
+    cursor: pointer;
+}
+
+.programs-category-icon {
+    font-size: xx-large;
+    fill: var(--appColor);
+    width: 2rem;
+    height: 2rem;
+}
+
+.programs-category-header {
+    font-size: x-large;
+}
+
+
+.programs-category-details {
+    font-size: 1rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.get-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
