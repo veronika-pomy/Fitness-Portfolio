@@ -7,8 +7,7 @@ import programsData from '../assets/database/programsData';
 const Programs = () => {
   return (
     <div
-        className='programs'
-        id='programs'
+        className='programs-container'
     >
         <div className="programs-header">
             <span className='outline-text'>Discover</span>
@@ -34,7 +33,7 @@ const Programs = () => {
                     >
                         {program.details}
                     </span>
-                    {/* TODO: add onclick event to prompt to either scroll to contact form, download a booklet or open email box  */}
+                    {/* TODO: add onclick event to prompt to either scroll to contact form, download a booklet, nav to a new page or open email box  */}
                     <div className="get-info">
                         <span>
                             Get Info

@@ -11,7 +11,7 @@ import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero-container">
         <div className="left-hero">
             <Header />
             <Promo />
