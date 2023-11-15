@@ -34,25 +34,25 @@ const Motivation = () => {
             <div className='motivation-details-right'>
                 <div>
                     <img src={check} alt="A checkmark bullet point" className='check' />
-                    <span>
+                    <span className='motivation-bullet'>
                         Hundreds of satisfied customers
                     </span>
                 </div>
                 <div>
                     <img src={check} alt="A checkmark bullet point" className='check' />
-                    <span>
+                    <span className='motivation-bullet'>
                         Expert Jiu-Jitsu coach
                     </span>
                 </div>
                 <div>
                     <img src={check} alt="A checkmark bullet point" className='check' />
-                    <span>
+                    <span className='motivation-bullet'>
                         1 free personalized program for new starters
                     </span>
                 </div>
                 <div>
                     <img src={check} alt="A checkmark bullet point" className='check' />
-                    <span>
+                    <span className='motivation-bullet'>
                         Online training availble for flexible schedule
                     </span>
                 </div>

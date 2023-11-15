@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/Programs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
-import programsData from '../assets/database/programsData';
+import programsData from '../database/programsData';
 
 const Programs = () => {
   return (

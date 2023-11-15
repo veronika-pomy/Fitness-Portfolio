@@ -1,0 +1,15 @@
+.pricing-container {
+
+}
+
+.pricing-header {
+    display: flex;
+    gap: 13rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: var(--purple);
+    text-transform: uppercase;
+    font-style: oblique;
+    padding-bottom: 3rem;
+}

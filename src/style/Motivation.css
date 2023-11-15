@@ -84,6 +84,11 @@
     color: var(--purple);
 }
 
+.motivation-bullet {
+    display: flex;
+    align-items: center;
+}
+
 .motivation-partners-list {
     display: flex;
     gap: 1rem;
