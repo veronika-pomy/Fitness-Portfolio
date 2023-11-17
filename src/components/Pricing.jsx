@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Pricing.css';
 import pricingData from '../database/pricingData';
-import elitePlanCheck from '../assets/imgs/elite-plan-check.svg';
+import planCheck from '../assets/imgs/plan-check.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,7 +24,7 @@ const Pricing = () => {
                     <div className="plan-features">
                         {plan.features.map((feature, index)=> (
                             <div className="plan-feature">
-                                <img src={elitePlanCheck} alt="A checkmark bullet point" className='plan-check' />
+                                <img src={planCheck} alt="A checkmark bullet point" className='plan-check' />
                                 <span key={index}>
                                     {feature}
                                 </span>
