@@ -8,7 +8,7 @@ const pricingData = [
         features: [
             'Free 1 hour consultation',
             'Customized workout sessions',
-            'Nutritional advice to support your goals'
+            'Nutritional plan to support your goals'
         ]
     },
     {

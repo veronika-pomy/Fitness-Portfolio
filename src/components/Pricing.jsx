@@ -1,9 +1,11 @@
 import React from 'react';
 import '../style/Pricing.css';
 import pricingData from '../database/pricingData';
-import check from '../assets/imgs/motivation-check.svg';
+import elitePlanCheck from '../assets/imgs/elite-plan-check.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
+
+// TODO: contact button should scroll down to the contact form
 
 const Pricing = () => {
   return (
@@ -16,13 +18,13 @@ const Pricing = () => {
         <div className="pricing-plans">
             {pricingData.map((plan, index) => (
                 <div className='plan' key={index}>
-                    {plan.img}
-                    <span>{plan.name}</span>
-                    <span>{plan.price}</span>
+                    <span className='plan-icon'>{plan.img}</span>
+                    <span className='plan-name'>{plan.name}</span>
+                    <span className='plan-price'>{plan.price}</span>
                     <div className="plan-features">
                         {plan.features.map((feature, index)=> (
                             <div className="plan-feature">
-                                <img src={check} alt="A checkmark bullet point" />
+                                <img src={elitePlanCheck} alt="A checkmark bullet point" className='plan-check' />
                                 <span key={index}>
                                     {feature}
                                 </span>
@@ -35,7 +37,7 @@ const Pricing = () => {
                         </span>
                         <FontAwesomeIcon icon={faRightLong} className='get-info-right-arrow' />
                     </div>
-                    <button className="btn">
+                    <button className="btn pricing-btn">
                         Contact 
                     </button>
                 </div>

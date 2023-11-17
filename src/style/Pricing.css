@@ -1,5 +1,10 @@
 .pricing-container {
-
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 2rem;
+    gap: 4rem;
+    position: relative;
 }
 
 .pricing-header {
@@ -12,4 +17,80 @@
     text-transform: uppercase;
     font-style: oblique;
     padding-bottom: 3rem;
+}
+
+.pricing-plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--infoCard);
+    color: var(--appColor);
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 20rem;
+}
+
+.plan:hover {
+    box-shadow: 0 5px 15px var(--glow-shadow-gray-plan);
+    transition: all .4s ease;
+}
+
+.plan-icon {
+    fill: var(--purple);
+    font-size: 2rem;
+}
+
+.plan-name {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.plan-price {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.plan-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.plan-feature {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pricing-btn:hover {
+    color: var(--purple);
+}
+
+/* targeting card separtely using th el as card data supplied via map */
+
+.plan:nth-child(2) {
+    background-color: var(--purple);
+    transform: scale(1.1);
+}
+
+.plan:nth-child(2):hover {
+    box-shadow: 0 5px 15px var(--glow-shadow-purple-plan);
+}
+
+.plan:nth-child(2) > .plan-icon {
+    fill: var(--appColor);
+}
+
+.plan:nth-child(2) > button {
+    color: var(--purple);
+}
+
+.plan:nth-child(2) > button:hover {
+    color: var(--darkGrey);
 }

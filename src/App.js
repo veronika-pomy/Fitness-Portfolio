@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Programs from './components/Programs';
 import Motivation from './components/Motivation';
 import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Programs />
       <Motivation />
       <Pricing />
+      <Testimonials />
     </div>
   );
 }
