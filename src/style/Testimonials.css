@@ -1,7 +1,7 @@
 .testimonials-container {
     display: flex;
     gap: 1rem;
-    padding: 0 4rem;
+    padding: 0 2rem 0 6rem;
 }
 
 .left-testimonials {

@@ -24,6 +24,9 @@
     top: 2rem;
     color: var(--darkGrey);
 }
+.btn-main:hover {
+    color: var(--purple);
+}
 
 .hero-img {
     position: absolute;

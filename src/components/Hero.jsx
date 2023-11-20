@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <div className="right-hero">
           <button className="btn btn-main">
-            Contact Now
+            Contact now
           </button>
           <div className="certificate">
             <FontAwesomeIcon icon={faCertificate} className='hero-icon'/>
