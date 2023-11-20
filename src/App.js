@@ -4,6 +4,7 @@ import Programs from './components/Programs';
 import Motivation from './components/Motivation';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
+import Join from './components/Join';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Motivation />
       <Pricing />
       <Testimonials />
+      <Join />
     </div>
   );
 }
