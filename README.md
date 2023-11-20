@@ -12,6 +12,8 @@ line PNG Designed By 699pic from https://pngtree.com/freepng/purple-lines_564906
 
 https://www.pexels.com/
 
+# Functionality
+
 https://www.npmjs.com/package/emailjs
 
 https://www.npmjs.com/package/framer-motion
