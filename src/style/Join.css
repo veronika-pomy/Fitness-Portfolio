@@ -1,5 +1,6 @@
 .join-container {
     display: flex;
+    justify-content: space-between;
     padding: 0 6rem;
     gap: 10rem;
 }
@@ -33,8 +34,8 @@
 
 .right-join {
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .email-container {
@@ -48,14 +49,27 @@
     background-color: transparent;
     border: none;
     outline: none;
-    color: var(--darkGrey);
+    color: var(--appColor);
 }
 
 ::placeholder {
-    color: var(--darkGrey);
+    color: var(--appColor);
 }
 
 .btn-join {
     background-color: var(--purple);
     color: var(--appColor);
+}
+
+.btn-join:hover {
+    color: var(--lightgray);
+    box-shadow: 0 3px 10px var(--glow-shadow-gray-plan);
+    transition: all .4s ease;
+}
+
+.btn-join:active {
+    background-color: var(--purple);
+    color: var(--appColor);
+    box-shadow: none;
+    transition: all .4s ease;
 }

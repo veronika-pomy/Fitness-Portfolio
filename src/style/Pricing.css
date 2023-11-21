@@ -7,6 +7,20 @@
     position: relative;
 }
 
+.pricing-blur-left {
+    width: 30rem;
+    height: 20rem;
+    top: 2rem;
+    left: 0rem;
+}
+
+.pricing-blur-right {
+    width: 30rem;
+    height: 20rem;
+    top: 14rem;
+    right: 2rem;
+}
+
 .pricing-header {
     display: flex;
     gap: 13rem;
@@ -17,6 +31,7 @@
     text-transform: uppercase;
     font-style: oblique;
     padding-bottom: 3rem;
+    margin-top: -6rem;
 }
 
 .pricing-plans {

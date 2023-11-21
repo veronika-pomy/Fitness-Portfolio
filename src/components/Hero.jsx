@@ -1,6 +1,5 @@
 import React from 'react';
 import Headshot from '../assets/imgs/headshot.png';
-import Background from '../assets/imgs/hero-background.png';
 import '../style/Hero.css'
 import Header from'./Header.jsx';
 import Promo from'./Promo.jsx';
@@ -12,6 +11,8 @@ import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 const Hero = () => {
   return (
     <div className="hero-container">
+        {/* color gradient  */}
+        <div className="blur hero-blur"></div>
         <div className="left-hero">
             <Header />
             <Promo />
@@ -34,11 +35,6 @@ const Hero = () => {
             alt="Personal trainer headshot" 
             className="hero-img" 
           />
-          {/* <img 
-            src={Background} 
-            alt="Mesh background PNG Designed By 699pic, web link attributed in the readme file" 
-            className="hero-img-background" 
-          /> */}
         </div>
     </div>
   )

@@ -3,6 +3,13 @@
     justify-content: space-between;
 }
 
+.hero-blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+    
+}
+
 .left-hero {
     padding: 1.5rem 2rem;
     flex: 3;
