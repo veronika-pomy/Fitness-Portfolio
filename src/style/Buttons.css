@@ -30,3 +30,10 @@
     background-color: transparent;
     border: 4px solid var(--darkGrey);
 }
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .hero-btns {
+        justify-content: center;
+    }
+}

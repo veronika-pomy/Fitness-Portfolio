@@ -68,7 +68,7 @@
     width: 25rem;
 }
 
-.hero-img-background {
+/* .hero-img-background {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
     position: absolute;
@@ -77,4 +77,40 @@
     width: 140vw;
     height: 100vh;
     opacity: 0.8;
+} */
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-blur {
+        width: 14rem;
+    }
+
+    .right-hero {
+        position: relative;
+        background: none;
+    }
+
+    .btn-main {
+        position: absolute;
+        right: 5rem;
+        top: 8rem;
+        color: var(--darkGrey);
+        align-self: center;
+    }
+
+    .certificate {
+        display: none;
+    }
+
+    .hero-img {
+        position: relative;
+        width: 15rem;
+        left: 3rem;
+        top: 10rem;
+        align-self: center;
+    }
 }

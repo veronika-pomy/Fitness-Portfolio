@@ -17,3 +17,17 @@
     letter-spacing: 1px;
     width: 70%;
 }
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .promo-headline {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .promo-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+}

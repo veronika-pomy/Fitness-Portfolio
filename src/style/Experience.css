@@ -2,7 +2,7 @@
     display: flex;
     gap: 6rem;
     position: absolute;
-    top: 46.5rem;
+    top: 45.5rem;
 }
 
 .experience > div {
@@ -25,3 +25,20 @@
     text-align: center;
 }
 
+/* small screens */
+@media screen and (max-width: 768px) {
+    .experience {
+        gap: 1.5rem;
+        top: 40rem;
+        margin-right: 2.5rem;
+        align-self: center;
+    }
+
+    .experience > div > span:nth-of-type(1) {
+        font-size: 1.2rem;
+    }
+
+    .experience > div > span:nth-of-type(2) {
+        font-size: 0.8rem;
+    }
+}

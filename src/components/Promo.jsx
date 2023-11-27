@@ -15,7 +15,7 @@ const Promo = () => {
         </div>
         <div className='promo-text'>
             <span>
-                Are you ready to embark on a journey towards realizing your full potential? It's not just about physical well-being; it's about achieving your dream lifestyle. I'm here to help you do just that. Let's take the first step together.
+                Are you ready to embark on a journey towards realizing your full potential? I'm here to help you do just that. Let's take the first step together.
             </span>
         </div>
     </div>
