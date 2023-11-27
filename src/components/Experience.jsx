@@ -2,11 +2,16 @@ import React from 'react';
 import '../style/Experience.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedal, faHeart, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 
 const Experience = () => {
+
+    const transition = { type: 'spring', duration: 2 };
+
   return (
-    <div
+    <motion.div
         className='experience'
+        transition={transition} initial={{ left: '-5rem' }} whileInView={{ left: '2em' }}
     >
         <div>
             <span>
@@ -26,7 +31,7 @@ const Experience = () => {
             </span>
             <span>Martial Arts</span>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -7,7 +7,7 @@ export const testinomialsData = [
         img: testimonail1,
         review: 'CJ\'s commitment to nutritional guidance goes beyond the basics, offering clients a nuanced understanding of how dietary choices impact their overall well-being.',
         name: 'Kelly',
-        role: 'Certified Dietitian',
+        role: 'Certified Nutritionist',
     },{
         img: testimonail2,
         review: 'Calvin has been instrumental in refining my techniques, improving my stamina, and overall enhancing my martial arts performance.',

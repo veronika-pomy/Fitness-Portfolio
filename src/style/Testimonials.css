@@ -65,6 +65,7 @@
     right: 9rem;
     top: 0.9rem;
 }
+
 .right-testimonials>:nth-child(2) {
     position: absolute;
     width: 17rem;
@@ -90,10 +91,10 @@
 .carousel-arrow {
     width: 3rem;
     height: 2rem;
-    top: 22rem;
+    top: 21rem;
     cursor: pointer;
     fill: var(--purple);
-    left: 2rem;
+    left: 10rem;
 }
 
 .carousel-arrow:nth-child(1),

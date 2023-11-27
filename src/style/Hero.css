@@ -31,8 +31,34 @@
     top: 2rem;
     color: var(--darkGrey);
 }
+
 .btn-main:hover {
     color: var(--purple);
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: transparent;
+    width: fit-content;
+    padding: 1rem;
+    position: absolute;
+    right: 5rem;
+    top: 9rem;
+}
+
+.hero-icon {
+    color: var(--certificate);
+    font-size: 3rem;    
+}
+
+.certificate > span {
+    color: var(--certificate);
+    font-size: 1rem;
+    letter-spacing: 0.1em;
 }
 
 .hero-img {

@@ -1,6 +1,8 @@
 .experience {
     display: flex;
     gap: 6rem;
+    position: absolute;
+    top: 46.5rem;
 }
 
 .experience > div {

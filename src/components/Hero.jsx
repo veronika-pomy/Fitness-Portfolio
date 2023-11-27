@@ -7,8 +7,12 @@ import Experience from './Experience';
 import Buttons from './Buttons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
+
+  const transition = { type: 'spring', duration: 2 };
+
   return (
     <div className="hero-container">
         {/* color gradient  */}
@@ -23,17 +27,20 @@ const Hero = () => {
           <button className="btn btn-main">
             Contact now
           </button>
-          <div className="certificate">
+          <motion.div className="certificate" transition={transition} initial={{ right: '-1rem' }} whileInView={{ right: '5rem' }}>
             <FontAwesomeIcon icon={faCertificate} className='hero-icon'/>
             <span>Certified</span>
             <span>Personal</span>
             <span>Trainer</span>
-          </div>
+          </ motion.div>
 
-          <img 
+          <motion.img 
             src={Headshot} 
             alt="Personal trainer headshot" 
             className="hero-img" 
+            transition={transition}
+            initial={{ right: '-1rem' }} 
+            whileInView={{ right: '12rem' }}
           />
         </div>
     </div>
