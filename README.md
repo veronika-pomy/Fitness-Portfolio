@@ -8,6 +8,8 @@ https://fontawesome.com/
 
 https://fonts.google.com/
 
+https://www.framer.com/motion/
+
 line PNG Designed By 699pic from https://pngtree.com/freepng/purple-lines_5649060.html?sol=downref&id=bef
 
 https://www.pexels.com/
