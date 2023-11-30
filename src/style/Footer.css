@@ -55,3 +55,10 @@
     filter: blur(300px);
     background-color: rgba(0, 0, 255, 0.769);
 }
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .footer-icons-wrapper {
+        gap: 2rem;
+    }
+}

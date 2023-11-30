@@ -79,7 +79,7 @@ const Testimonials = () => {
                   : setTestimonial((prev) => prev + 1)
               )} 
             />
-          </div>
+        </div>
       </div>
     </div>
   )

@@ -73,3 +73,48 @@
     box-shadow: none;
     transition: all .4s ease;
 }
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .join-container {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 0 2rem;
+        margin-top: -2rem;
+    }
+
+    .left-join {
+        font-size: 2rem;
+    }
+
+    .left-join > hr {
+        display: none;
+    }
+
+    .left-join > div {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .left-join > div > :nth-child(2) {
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    
+    .right-join {
+        padding: 2rem;
+    }
+
+    .email-container {
+        display: flex;
+        gap: 1rem;
+        background-color: var(--card-color);
+        padding: 0.2rem 1rem;
+    }
+
+    .btn-join {
+        padding: 4px 10px;
+        margin: 2px;
+        font-size: small;
+    }
+}

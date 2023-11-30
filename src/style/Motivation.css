@@ -97,3 +97,21 @@
 .motivation-partners-list > img {
     width: 2.5rem;
 }
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .motivation-container {
+        margin-top: -3rem;
+        flex-direction: column;
+    }
+
+    .motivation-left {
+        grid-auto-rows: auto;
+        overflow: hidden;
+        margin-bottom: 3rem;
+    }
+
+    .motivation-right {
+        margin-bottom: 3rem;
+    }
+}

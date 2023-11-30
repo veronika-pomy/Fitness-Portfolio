@@ -109,3 +109,38 @@
 .plan:nth-child(2) > button:hover {
     color: var(--darkGrey);
 }
+
+/* small screens */
+@media screen and (max-width: 768px) { 
+    .pricing-header {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.8rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+        margin-top: -8rem;
+    }
+
+    .pricing-plans {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        background-color: var(--infoCard);
+        color: var(--appColor);
+        gap: 2rem;
+        padding: 1.5rem;
+        width: 15rem;
+    }
+
+    .plan:nth-child(2) {
+        background-color: var(--purple);
+        transform: none;
+    }
+}
