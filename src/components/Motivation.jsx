@@ -15,6 +15,7 @@ const Motivation = () => {
   return (
     <div
         className='motivation-container'
+        id='about'
     >
         <div className="motivation-left">
             <img src={img1} alt="A closeup of a dumbbell rack" />

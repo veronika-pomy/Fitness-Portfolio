@@ -15,6 +15,7 @@ const Testimonials = () => {
   return (
     <div
       className='testimonials-container'
+      id='testimonials'
     >
       <div className="left-testimonials">
         <span>Testimonials</span>

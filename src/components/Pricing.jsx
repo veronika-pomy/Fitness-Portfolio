@@ -9,7 +9,7 @@ import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
 const Pricing = () => {
   return (
-    <div className='pricing-container'>
+    <div className='pricing-container' id='plans'>
         {/* color gradient */}
         <div className="blur pricing-blur-left"></div>
         <div className="blur pricing-blur-right"></div>

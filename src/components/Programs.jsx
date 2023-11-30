@@ -8,6 +8,7 @@ const Programs = () => {
   return (
     <div
         className='programs-container'
+        id='programs'
     >
         <div className="programs-header">
             <span className='outline-text'>Discover</span>

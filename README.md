@@ -19,3 +19,7 @@ https://www.pexels.com/
 https://www.npmjs.com/package/emailjs
 
 https://www.npmjs.com/package/framer-motion
+
+https://www.npmjs.com/package/react-scroll
+
+

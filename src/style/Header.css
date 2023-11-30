@@ -27,3 +27,33 @@
     color: var(--purple);
 }
 
+/* small screens */
+@media screen and (max-width: 768px) {
+    .header {
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: -2rem;
+    }
+
+    .header > :nth-child(2) {
+        position: fixed;
+        left: 8rem;
+        z-index: 99;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 2rem;
+        background-color: var(--mobile-menu);
+        margin-top: 18rem;
+        margin-right: 2rem;
+    }
+
+    .mobile-menu-bars {
+        color: var(--purple);
+        font-size: 2rem;
+        margin-left: 8rem;
+    }
+}

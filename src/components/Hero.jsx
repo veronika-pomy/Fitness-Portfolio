@@ -14,7 +14,7 @@ const Hero = () => {
   const transition = { type: 'spring', duration: 2 };
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" id='hero'>
         {/* color gradient  */}
         <div className="blur hero-blur"></div>
         <div className="left-hero">
