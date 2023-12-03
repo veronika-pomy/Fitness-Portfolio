@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../style/Header.css';
 import Logo from '../assets/imgs/logo-1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars,faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 
 // TODO: add close btn to the mobile menu
@@ -29,6 +29,11 @@ const Header = () => {
           <ul 
             className='menu'
           >
+            {(isMenuOpen === true && mobileScreen === true) ? 
+              <FontAwesomeIcon icon={faXmark} className='mobile-menu-close' onClick={() => setOpenMenu(false)}/>
+              :
+              <></>
+            }
             <li className="home">
               <Link spy={true} span={true} smooth={true} to='hero' activeClass='active' onClick={() => setOpenMenu(false)}>Home</Link>
             </li>
@@ -44,7 +49,7 @@ const Header = () => {
             <li className="testimonials">
               <Link spy={true} span={true} smooth={true} to='testimonials' onClick={() => setOpenMenu(false)}>Testimonials</Link>
             </li>
-        </ul>
+          </ul>
         }
     </div>
   )

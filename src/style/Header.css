@@ -55,5 +55,14 @@
         color: var(--purple);
         font-size: 2rem;
         margin-left: 8rem;
+        cursor: pointer;
+    }
+
+    .mobile-menu-close {
+        color: var(--purple);
+        font-size: 1rem;
+        align-self: end;
+        margin-bottom: -1.5rem;
+        cursor: pointer;
     }
 }
