@@ -89,17 +89,11 @@
 }
 
 .carousel-arrow {
-    width: 3rem;
+    width: 5rem;
     height: 2rem;
-    top: 21rem;
+    top: 20rem;
     cursor: pointer;
-    fill: var(--purple);
     left: 10rem;
-}
-
-.carousel-arrow:nth-child(1),
-.carousel-arrow:nth-child(2) {
-    position: relative;
 }
 
 /* small screens */
@@ -147,8 +141,8 @@
         display: block !important;
     }
 
-    .carousel-arrow {
-        top: 0;
+    /* .carousel-arrow {
+        top: 1;
         left: 0;
-    }
+    } */
 }

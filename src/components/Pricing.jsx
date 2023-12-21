@@ -2,8 +2,6 @@ import React from 'react';
 import '../style/Pricing.css';
 import pricingData from '../database/pricingData';
 import planCheck from '../assets/imgs/plan-check.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
 // TODO: contact button should scroll down to the contact form
 
@@ -38,7 +36,6 @@ const Pricing = () => {
                         <span>
                             Discuss benefits
                         </span>
-                        <FontAwesomeIcon icon={faRightLong} className='get-info-right-arrow' />
                     </div>
                     <button className="btn pricing-btn">
                         Contact 

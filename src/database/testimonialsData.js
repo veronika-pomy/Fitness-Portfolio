@@ -10,7 +10,7 @@ export const testinomialsData = [
         role: 'Certified Nutritionist',
     },{
         img: testimonail2,
-        review: 'Calvin has been instrumental in refining my techniques, improving my stamina, and overall enhancing my martial arts performance.',
+        review: 'CJ has been instrumental in refining my techniques, improving my stamina, and overall enhancing my martial arts performance.',
         name: 'Jon T',
         role: 'Martial Artist',
     },

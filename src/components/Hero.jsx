@@ -24,7 +24,7 @@ const Hero = () => {
             <Buttons />
         </div>
         <div className="right-hero">
-          <button className="btn btn-main">
+          <button className="btn btn-main btn-contact">
             Contact now
           </button>
           <motion.div className="certificate" transition={transition} initial={{ right: '-1rem' }} whileInView={{ right: '5rem' }}>
@@ -33,15 +33,14 @@ const Hero = () => {
             <span>Personal</span>
             <span>Trainer</span>
           </ motion.div>
-
-          <motion.img 
-            src={Headshot} 
-            alt="Personal trainer headshot" 
-            className="hero-img" 
-            transition={transition}
-            initial={{ right: '-1rem' }} 
-            whileInView={{ right: '12rem' }}
-          />
+            <motion.img 
+              src={Headshot} 
+              alt="Personal trainer headshot" 
+              className="hero-img" 
+              transition={transition}
+              initial={{ right: '-1rem' }} 
+              whileInView={{ right: '12rem' }}
+            />
         </div>
     </div>
   )

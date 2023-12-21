@@ -36,6 +36,10 @@
     color: var(--purple);
 }
 
+.btn-contact {
+    cursor: pointer;
+}
+
 .certificate {
     display: flex;
     flex-direction: column;
@@ -63,21 +67,10 @@
 
 .hero-img {
     position: absolute;
-    right: 12rem;
-    top: 12rem;
-    width: 25rem;
+    right: 14rem;
+    top: 4rem;
+    width: 32rem;
 }
-
-/* .hero-img-background {
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-    position: absolute;
-    right: -40rem;
-    z-index: -1;
-    width: 140vw;
-    height: 100vh;
-    opacity: 0.8;
-} */
 
 /* small screens */
 @media screen and (max-width: 768px) {
@@ -109,8 +102,8 @@
     .hero-img {
         position: relative;
         width: 15rem;
-        left: 3rem;
-        top: 10rem;
+        left: 6rem;
+        top: 12rem;
         align-self: center;
     }
 }
