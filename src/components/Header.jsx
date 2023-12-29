@@ -17,7 +17,7 @@ const Header = () => {
             alt="Calvin Waid Fitness Logo" 
             className='logo'
         />
-        {(isMenuOpen === false && mobileScreen === true) ? 
+        {(!isMenuOpen && mobileScreen) ? 
           <div
             onClick={() => setOpenMenu(true)}
           >
@@ -27,25 +27,25 @@ const Header = () => {
           <ul 
             className='menu'
           >
-            {(isMenuOpen === true && mobileScreen === true) ? 
+            {(isMenuOpen && mobileScreen) ? 
               <FontAwesomeIcon icon={faXmark} className='mobile-menu-close' onClick={() => setOpenMenu(false)}/>
               :
               <></>
             }
             <li className="home">
-              <Link spy={true} span={true} smooth={true} to='hero' activeClass='active' onClick={() => setOpenMenu(false)}>Home</Link>
+              <Link spy={true} span={'true'} smooth={true} to='hero' activeClass='active' onClick={() => setOpenMenu(false)}>Home</Link>
             </li>
             <li className="programs">
-              <Link spy={true} span={true} smooth={true} to='programs' onClick={() => setOpenMenu(false)}>Programs</Link>
+              <Link spy={true} span={'true'} smooth={true} to='programs' onClick={() => setOpenMenu(false)}>Programs</Link>
             </li>
             <li className="about">
-              <Link spy={true} span={true} smooth={true} to='about' onClick={() => setOpenMenu(false)}>About</Link>
+              <Link spy={true} span={'true'} smooth={true} to='about' onClick={() => setOpenMenu(false)}>About</Link>
             </li>
             <li className="plans">
-              <Link spy={true} span={true} smooth={true} to='plans' onClick={() => setOpenMenu(false)}>Plans</Link>
+              <Link spy={true} span={'true'} smooth={true} to='pricing' onClick={() => setOpenMenu(false)}>Plans</Link>
             </li>
             <li className="testimonials">
-              <Link spy={true} span={true} smooth={true} to='testimonials' onClick={() => setOpenMenu(false)}>Testimonials</Link>
+              <Link spy={true} span={'true'} smooth={true} to='testimonials' onClick={() => setOpenMenu(false)}>Testimonials</Link>
             </li>
           </ul>
         }

@@ -8,6 +8,7 @@ import Buttons from './Buttons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
 
@@ -25,7 +26,7 @@ const Hero = () => {
         </div>
         <div className="right-hero">
           <button className="btn btn-main btn-contact">
-            Contact now
+            <Link spy={true} span={'true'} smooth={true} to='join' >Contact</Link>
           </button>
           <motion.div className="certificate" transition={transition} initial={{ right: '-1rem' }} whileInView={{ right: '5rem' }}>
             <FontAwesomeIcon icon={faCertificate} className='hero-icon'/>

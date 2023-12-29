@@ -44,7 +44,7 @@
 .plan {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: var(--infoCard);
     color: var(--appColor);
     gap: 2rem;
@@ -131,7 +131,7 @@
     .plan {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: flex-start;
         background-color: var(--infoCard);
         color: var(--appColor);
         gap: 2rem;

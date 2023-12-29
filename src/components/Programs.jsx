@@ -17,8 +17,8 @@ const Programs = () => {
         </div>
 
         <div className="programs-list">
-            {programsData.map((program) => (
-                <div className="program-category">
+            {programsData.map((program, index) => (
+                <div className="program-category" key={index}>
                     <span
                         className='programs-category-icon'
                     >
@@ -34,7 +34,6 @@ const Programs = () => {
                     >
                         {program.details}
                     </span>
-                    {/* TODO: add onclick event to prompt to either scroll to contact form, download a booklet, nav to a new page or open email box  */}
                     <div className="get-info">
                         <span>
                             Get Info

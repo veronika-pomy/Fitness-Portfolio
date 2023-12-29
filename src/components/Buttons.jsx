@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/Buttons.css';
+import { Link } from 'react-scroll';
 
 const Buttons = () => {
   return (
@@ -7,10 +8,10 @@ const Buttons = () => {
       className='hero-btns'
     >
       <button className="btn">
-        Get Started
+        <Link spy={true} span={'true'} smooth={true} to='pricing' >Get Started</Link>
       </button>
       <button className="btn">
-        Learn More
+        <Link spy={true} span={'true'} smooth={true} to='programs' >Learn More</Link>
       </button>
     </div>
   )

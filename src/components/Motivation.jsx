@@ -9,8 +9,6 @@ import partner1 from '../assets/imgs/motivation-partner-logo-1.svg';
 import partner2 from '../assets/imgs/motivation-partner-logo-2.svg';
 import partner3 from '../assets/imgs/motivation-partner-logo-3.svg';
 
-// TOD0: issues with aligning images on larger screens in grid 
-
 const Motivation = () => {
   return (
     <div

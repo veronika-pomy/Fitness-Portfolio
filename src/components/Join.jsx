@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import '../style/Join.css';
-import emailjs from '@emailjs/browser';
 
 const Join = () => {
 
@@ -8,17 +7,11 @@ const Join = () => {
 
     const sendEmail = (e) => {
         e.preventDefault(e);
-        // console.log(process.env.REACT_APP_YOUR_PUBLIC_KEY);
-        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
+       
     };
 
   return (
-    <div className='join-container'>
+    <div className='join-container' id='join'>
         <div className="left-join">
             <hr />
             <div>
@@ -36,7 +29,8 @@ const Join = () => {
                 <input 
                     type="email"
                     name='email'
-                    placeholder='Your Email'
+                    placeholder='Email'
+                    required
                 />
                 <button
                     className='btn btn-join'

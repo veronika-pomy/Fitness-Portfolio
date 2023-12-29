@@ -2,12 +2,11 @@ import React from 'react';
 import '../style/Pricing.css';
 import pricingData from '../database/pricingData';
 import planCheck from '../assets/imgs/plan-check.svg';
-
-// TODO: contact button should scroll down to the contact form
+import { Link } from 'react-scroll';
 
 const Pricing = () => {
   return (
-    <div className='pricing-container' id='plans'>
+    <div className='pricing-container' id='pricing'>
         {/* color gradient */}
         <div className="blur pricing-blur-left"></div>
         <div className="blur pricing-blur-right"></div>
@@ -24,7 +23,7 @@ const Pricing = () => {
                     <span className='plan-price'>{plan.price}</span>
                     <div className="plan-features">
                         {plan.features.map((feature, index)=> (
-                            <div className="plan-feature">
+                            <div className="plan-feature" key={index}>
                                 <img src={planCheck} alt="A checkmark bullet point" className='plan-check' />
                                 <span key={index}>
                                     {feature}
@@ -38,7 +37,7 @@ const Pricing = () => {
                         </span>
                     </div>
                     <button className="btn pricing-btn">
-                        Contact 
+                        <Link spy={true} span={'true'} smooth={true} to='join' >Contact</Link>
                     </button>
                 </div>
             ))}
