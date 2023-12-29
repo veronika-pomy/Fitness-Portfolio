@@ -82,6 +82,8 @@
     object-fit: cover;
     right: 8rem;
     top: 2rem;
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
 }
 
 .carousel-arrows {

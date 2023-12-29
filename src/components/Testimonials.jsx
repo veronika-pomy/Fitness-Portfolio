@@ -67,7 +67,7 @@ const Testimonials = () => {
           exit={{ opacity: 0, x: -50 }}
           transition={{...transition, duration: 2 }}
           src={testinomialsData[selectedTestimonial].img} 
-          alt="A photo of Calvin's customer who's sharing a testimony about a great fitness journey" 
+          alt="A photo of a customer who's sharing a testimony about a great fitness journey" 
           className='testimonial-client-photo'
         />
       </div>

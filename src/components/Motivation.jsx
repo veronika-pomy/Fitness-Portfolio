@@ -18,8 +18,8 @@ const Motivation = () => {
         <div className="motivation-left">
             <img src={img1} alt="A closeup of a dumbbell rack" />
             <img src={img2} alt="Two people working out with a rope" />
-            <img src={img3} alt="A runner on a treadmill" />
-            <img src={img4} alt="A man kicking a punching bag" />
+            <img src={img3} alt="A jogger taking a break" />
+            <img src={img4} alt="A child doing martial arts" />
         </div>
         <div className="motivation-right">
             <span className="motivation-header">

@@ -1,14 +1,25 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import '../style/Join.css';
 
 const Join = () => {
 
-    const form = useRef();
+    const [ email, setEmail ] = useState('');
+    const [ welcome, setWelcome ] = useState(false);
+    const [ error, setError ] = useState(false);
+
+    const emailValidation = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     const sendEmail = (e) => {
         e.preventDefault(e);
-       
-    };
+        if(email && emailValidation.test(String(email).toLowerCase())) {
+            console.log("Welcome email sent.");
+            setError(false);
+            setWelcome(true);
+        } else {
+            setError(true);
+            setWelcome(false);
+        }
+    }
 
   return (
     <div className='join-container' id='join'>
@@ -22,7 +33,6 @@ const Join = () => {
         <div className="right-join">
             <form 
                 action="submit"
-                ref={form} 
                 onSubmit={sendEmail}
                 className="email-container"
             >
@@ -31,6 +41,8 @@ const Join = () => {
                     name='email'
                     placeholder='Email'
                     required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                 />
                 <button
                     className='btn btn-join'
@@ -38,6 +50,12 @@ const Join = () => {
                    Get in touch
                 </button>
             </form>
+            {welcome && !error && 
+                <p className='message'>Thank you for your interest! <br /> I look forward to working with you.</p>
+            }
+            {error && !welcome &&
+                <p className='message'>Unexpected error. Please check your email and try again.</p>
+            }
         </div>
     </div>
   )
