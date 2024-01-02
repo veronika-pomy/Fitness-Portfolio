@@ -1,8 +1,8 @@
 import React from 'react';
-import '../style/Pricing.css';
-import pricingData from '../database/pricingData';
-import planCheck from '../assets/imgs/plan-check.svg';
 import { Link } from 'react-scroll';
+import planCheck from '../assets/imgs/plan-check.svg';
+import pricingData from '../database/pricingData';
+import '../style/Pricing.css';
 
 const Pricing = () => {
   return (

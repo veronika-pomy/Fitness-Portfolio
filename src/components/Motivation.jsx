@@ -1,13 +1,13 @@
 import React from 'react';
-import '../style/Motivation.css';
-import img1 from '../assets/imgs/motivation-1.jpg'
-import img2 from '../assets/imgs/motivation-2.jpg'
-import img3 from '../assets/imgs/motivation-3.jpg'
-import img4 from '../assets/imgs/motivation-4.jpg'
+import img1 from '../assets/imgs/motivation-1.jpg';
+import img2 from '../assets/imgs/motivation-2.jpg';
+import img3 from '../assets/imgs/motivation-3.jpg';
+import img4 from '../assets/imgs/motivation-4.jpg';
 import check from '../assets/imgs/motivation-check.svg';
 import partner1 from '../assets/imgs/motivation-partner-logo-1.svg';
 import partner2 from '../assets/imgs/motivation-partner-logo-2.svg';
 import partner3 from '../assets/imgs/motivation-partner-logo-3.svg';
+import '../style/Motivation.css';
 
 const Motivation = () => {
   return (

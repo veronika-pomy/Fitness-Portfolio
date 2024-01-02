@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import '../style/Header.css';
-import Logo from '../assets/imgs/logo-1.png';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars,faXmark } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import Logo from '../assets/imgs/logo-1.png';
+import '../style/Header.css';
 
 const Header = () => {
 

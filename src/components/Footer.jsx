@@ -1,8 +1,8 @@
-import React from 'react';
-import '../style/Footer.css';
+import { faLinkedin, faSquareFacebook, faSquareInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faSquareInstagram, faSquareFacebook, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import React from 'react';
 import logoFooter from '../assets/imgs/logo-1.png';
+import '../style/Footer.css';
 
 const Footer = () => {
   return (

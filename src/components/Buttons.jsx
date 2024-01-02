@@ -1,6 +1,6 @@
 import React from 'react';
-import '../style/Buttons.css';
 import { Link } from 'react-scroll';
+import '../style/Buttons.css';
 
 const Buttons = () => {
   return (

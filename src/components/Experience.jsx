@@ -1,8 +1,8 @@
+import { faDumbbell, faHeart, faMedal } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { motion } from 'framer-motion';
 import React from 'react';
 import '../style/Experience.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMedal, faHeart, faDumbbell } from '@fortawesome/free-solid-svg-icons';
-import { motion } from 'framer-motion';
 
 const Experience = () => {
 

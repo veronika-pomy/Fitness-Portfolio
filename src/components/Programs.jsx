@@ -1,8 +1,8 @@
-import React from 'react';
-import '../style/Programs.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import programsData from '../database/programsData';
+import '../style/Programs.css';
 
 const Programs = () => {
   return (

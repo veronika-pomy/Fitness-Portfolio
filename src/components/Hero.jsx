@@ -1,14 +1,14 @@
-import React from 'react';
-import Headshot from '../assets/imgs/headshot.png';
-import '../style/Hero.css'
-import Header from'./Header.jsx';
-import Promo from'./Promo.jsx';
-import Experience from './Experience';
-import Buttons from './Buttons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
+import React from 'react';
 import { Link } from 'react-scroll';
+import Headshot from '../assets/imgs/headshot.png';
+import '../style/Hero.css';
+import Buttons from './Buttons';
+import Experience from './Experience';
+import Header from './Header.jsx';
+import Promo from './Promo.jsx';
 
 const Hero = () => {
 
