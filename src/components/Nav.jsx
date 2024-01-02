@@ -1,20 +1,34 @@
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../assets/imgs/logo-1.png';
-import '../style/Header.css';
+import '../style/Nav.css';
 
-const Header = () => {
+const Nav = () => {
 
-  const mobileScreen = window.innerWidth <= 768 ? true: false;
   const [ isMenuOpen, setOpenMenu ] = useState(false);
+  const [ mobileScreen, setMoobileScreen ] = useState(true);
+
+  const mobileScreenListener = () => {
+    if(window.innerWidth <= 768) {
+      setMoobileScreen(true);
+    } else {
+      setMoobileScreen(false);
+    }
+  }
+
+  useEffect(() => {
+    mobileScreenListener();
+  }, []);
+
+  window.addEventListener('resize', mobileScreenListener);
 
   return (
     <div className="header">
         <img 
             src={Logo} 
-            alt="Calvin Waid Fitness Logo" 
+            alt="CJ Fitness Logo" 
             className='logo'
         />
         {(!isMenuOpen && mobileScreen) ? 
@@ -53,4 +67,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Nav;

@@ -7,7 +7,7 @@ import Headshot from '../assets/imgs/headshot.png';
 import '../style/Hero.css';
 import Buttons from './Buttons';
 import Experience from './Experience';
-import Header from './Header.jsx';
+import Nav from './Nav.jsx';
 import Promo from './Promo.jsx';
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
         {/* color gradient  */}
         <div className="blur hero-blur"></div>
         <div className="left-hero">
-            <Header />
+            <Nav />
             <Promo />
             <Experience />
             <Buttons />
