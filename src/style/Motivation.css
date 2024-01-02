@@ -52,9 +52,10 @@
 .motivation-right {
     flex: 1 1;
     text-transform: uppercase;
-    gap: 2rem;
+    gap: 3rem;
     display: flex;
     flex-direction: column;
+    margin-left: 8rem;
 }
 
 .motivation-right > span {

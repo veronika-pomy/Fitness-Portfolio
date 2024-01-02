@@ -1,7 +1,7 @@
 .programs-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     padding: 5rem 2rem;   
 }
 
@@ -18,8 +18,9 @@
 }
 
 .programs-list {
-    display: flex;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
 }
 
 .program-category {
@@ -29,7 +30,7 @@
     background-color: var(--purple);
     color: var(--appColor);
     padding: 2rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .program-category:hover {
@@ -74,6 +75,6 @@
     }
     
     .programs-list {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

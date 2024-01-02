@@ -52,7 +52,7 @@ const Motivation = () => {
                 <div>
                     <img src={check} alt="A checkmark bullet point" className='check' />
                     <span className='motivation-bullet'>
-                        Online training availble for flexible schedule
+                        Online training availble 
                     </span>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 .hero-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 
 .hero-blur {
