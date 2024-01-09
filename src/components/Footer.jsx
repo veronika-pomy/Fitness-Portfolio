@@ -1,6 +1,7 @@
 import { faLinkedin, faSquareFacebook, faSquareInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-scroll';
 import logoFooter from '../assets/imgs/logo-1.png';
 import '../style/Footer.css';
 
@@ -16,7 +17,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faTiktok} className='footer-icon' />
             </div>
             <div className="footer-logo">
-                <img src={logoFooter} alt="Logo reads CJ Fitness Instructor" />
+              <Link spy={true} span={'true'} smooth={true} to='hero'><img src={logoFooter} alt="Logo reads CJ Fitness Instructor" /></Link>
             </div>
         </div>
         {/* color gradient */}

@@ -80,6 +80,27 @@
     font-size: 0.9rem;
 }
 
+/* xx-large screens */
+@media screen and (max-width: 2560px) {}
+
+/* x-large screens */
+@media screen and (max-width: 1600px) {}
+
+/* large screens */
+@media screen and (max-width: 1440px) {}
+
+/* large screens */
+@media screen and (max-width: 1280px) {}
+
+/* md screens */
+@media screen and (max-width: 1024px) {}
+
+/* md screens */
+@media screen and (max-width: 912px) {}
+
+/* md screens */
+@media screen and (max-width: 820px) {}
+
 /* small screens */
 @media screen and (max-width: 768px) {
     .join-container {
@@ -100,6 +121,7 @@
     .left-join > div {
         flex-direction: row;
         gap: 0;
+        justify-content: center;
     }
 
     .left-join > div > :nth-child(2) {
@@ -123,4 +145,9 @@
         margin: 2px;
         font-size: small;
     }
+}
+
+/* x-small screens */
+@media screen and (max-width: 480px) {
+
 }
