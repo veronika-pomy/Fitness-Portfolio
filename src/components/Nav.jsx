@@ -11,7 +11,7 @@ const Nav = () => {
   const [ mobileScreen, setMoobileScreen ] = useState(true);
 
   const mobileScreenListener = () => {
-    if(window.innerWidth <= 768) {
+    if(window.innerWidth <= 1024) {
       setMoobileScreen(true);
     } else {
       setMoobileScreen(false);

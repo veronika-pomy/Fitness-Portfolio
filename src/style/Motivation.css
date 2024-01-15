@@ -123,8 +123,8 @@
 /* md screens */
 @media screen and (max-width: 820px) {}
 
-/* small screens */
-@media screen and (max-width: 768px) {
+/* medium-small screens */
+@media screen and (max-width: 1024px) {
     .motivation-container {
         margin-top: -3rem;
         flex-direction: column-reverse;
@@ -199,7 +199,6 @@
         width: 14rem;
         height: 18rem;
     }
-
 
     /* MMA */
     .motivation-left > :nth-child(4) {

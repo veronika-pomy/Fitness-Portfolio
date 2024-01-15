@@ -40,19 +40,13 @@
 /* md screens */
 @media screen and (max-width: 1024px) {}
 
-/* md screens */
-@media screen and (max-width: 912px) {}
-
-/* md screens */
-@media screen and (max-width: 820px) {}
-
-/* small screens */
-@media screen and (max-width: 768px) {
+/* medium-small screens */
+@media screen and (max-width: 1024px) {
     .experience {
         gap: 4rem;
         top: 34rem;
         align-self: center;
-        margin-left: 4rem;
+        margin-left: 11rem;
     }
 
     .experience > div > span:nth-of-type(1) {
@@ -61,6 +55,27 @@
 
     .experience > div > span:nth-of-type(2) {
         font-size: 1rem;
+    }
+}
+
+/* md screens */
+@media screen and (max-width: 912px) {
+    .experience {
+        margin-left: 10rem;
+    }
+}
+
+/* md screens */
+@media screen and (max-width: 820px) {
+    .experience {
+        margin-left: 8rem;
+    }
+}
+
+/* md screens */
+@media screen and (max-width: 730px) {
+    .experience {
+        margin-left: 6rem;
     }
 }
 
@@ -85,7 +100,6 @@
 /* small screens */
 @media screen and (max-width: 550px) {
     .experience {
-
         margin-left: 2rem;
     }
 }

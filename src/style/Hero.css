@@ -94,8 +94,8 @@
 /* md screens */
 @media screen and (max-width: 820px) {}
 
-/* small screens */
-@media screen and (max-width: 768px) {
+/* medium-small screens */
+@media screen and (max-width: 1024px) {
     .hero-container {
         flex-direction: column;
     }
@@ -124,9 +124,16 @@
     .hero-img {
         position: relative;
         width: 22rem;
-        left: 3rem;
+        left: 5rem;
         top: 12rem;
         align-self: center;
+    }
+}
+
+/* md screens */
+@media screen and (max-width: 540px) {
+    .hero-img {
+        left: 3rem;
     }
 }
 
