@@ -1,25 +1,52 @@
-# Personal Trainer Website
+# Personal Trainer Portfolio
 
-# Design Resources
+![React Badge](https://img.shields.io/badge/React-JS-%2361DAFB?style=for-the-badge&logo=React&logoColor=%2361DAFB)
 
-https://coolors.co/
+## Table of Contents
 
-https://fontawesome.com/
+- [Description](#description)
+- [Technologies](#technologies)
+- [Design](#design)
+- [Get Started](#get-started)
+- [Contributing](#contributing)
 
-https://fonts.google.com/
+## Description
 
-https://www.framer.com/motion/
+The Personal Trainer Portfolio seamlessly integrates cutting-edge front-end technologies, ensuring a dynamic and visually engaging experience. Leveraging React.js for the user interface, this platform delivers interactivity and responsiveness across devices. CSS is used for styling, providing a sleek aesthetic that adheres to mobile-first design principles.
 
-line PNG Designed By 699pic from https://pngtree.com/freepng/purple-lines_5649060.html?sol=downref&id=bef
+Engaging animations powered by the Framer Motion library elevate the user experience, creating a visually dynamic presentation. The incorporation of smooth scrolling through the React Scroll library ensures seamless navigation. The design palette, curated with Google Fonts for typography and Font Awesome icons for visual enrichment, is complemented by Pexels, a source of high-quality stock photos.
 
-https://www.pexels.com/
+This portfolio goes beyond fitness, showcasing the perfect synergy between front-end technologies, thoughtful design, and a commitment to a mobile-first approach.
 
-# Functionality
+## Technologies
 
-https://www.npmjs.com/package/emailjs
+This website is built using the following technologies to provide an engaging and dynamic user experience:
 
-https://www.npmjs.com/package/framer-motion
+- **React:** Powering the front-end for an interactive and seamless interface.
+- **Google Fonts:** Enhancing typography for a visually appealing presentation.
+- **Font Awesome:** Integrating a vast library of icons for an enriched user interface.
+- **Framer Motion:** Adding smooth animations for a captivating user experience.
+- **React Scroll:** Incorporating smooth scrolling for seamless navigation.
 
-https://www.npmjs.com/package/react-scroll
+## Design
 
+The design of this portfolio is crafted with precision and creativity using the following tools:
 
+- **Coolors:** For a harmonious and visually pleasing color palette.
+- **Canva:** Leveraging Canva for professional and eye-catching design elements.
+- **Pexels:** A repository of high-quality stock photos, further elevates the overall aesthetic.
+- **PNG Images:** Customized images to enhance the visual appeal of the website.
+
+## Get Started
+
+1. Clone the repository: `git clone https://github.com/veronika-pomy/Personal-Trainer-Website`
+2. Navigate to the project directory: `cd repo`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open the website in your browser: `http://localhost:3000`
+
+## Contributing
+
+Contributions to improve and enhance this portfolio project are welcome! Feel free to open issues, submit pull requests, or reach out to me at pomyateevav@gmail.com.
+
+<p align="right">(<a href="#personal-trainer-portfolio">back to top</a>)</p>

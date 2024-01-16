@@ -72,7 +72,17 @@
 @media screen and (max-width: 1440px) {}
 
 /* large screens */
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1370px) {
+    .programs-header {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .programs-header {
+        font-size: 2rem;
+    }
+}
 
 /* medium-small screens */
 @media screen and (max-width: 1024px) {
