@@ -23,7 +23,7 @@ This portfolio goes beyond fitness, showcasing the perfect synergy between front
 
 Check out the deployed demo [here.]()
 
-https://github.com/veronika-pomy/Personal-Trainer-Website/assets/111567114/c367302f-70ca-462f-ade8-d6dd18c867b8
+https://github.com/veronika-pomy/Personal-Trainer-Website/assets/111567114/59debbb1-acb8-482a-a4f7-b0727a922a6d
 
 ## Technologies
 
