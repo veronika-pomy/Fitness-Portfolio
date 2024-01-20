@@ -29,7 +29,7 @@
 /* Rope */
 .motivation-left > :nth-child(2) {
     width: 38rem;
-    height: 19rem;
+    height: 20rem;
     grid-column: 2/4;
 }
 
@@ -103,17 +103,96 @@
 }
 
 /* xx-large screens */
-@media screen and (max-width: 2560px) {}
+@media screen and (max-width: 4000px) {
+    .motivation-container {
+        padding: 0 65rem;
+    }
+}
+
+/* xx-large screens */
+@media screen and (max-width: 3700px) {
+    .motivation-container {
+        padding: 0 55rem;
+    }
+}
+
+/* xx-large screens */
+@media screen and (max-width: 3000px) {
+    .motivation-container {
+        padding: 0 40rem;
+    }
+}
 
 /* x-large screens */
-@media screen and (max-width: 1600px) {}
+@media screen and (max-width: 2800px) {
+    .motivation-container {
+        padding: 0 33rem;
+    }
+}
 
 /* large screens */
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 2559px) {
+    .motivation-container {
+        padding: 0 15rem;
+    }
+
+    .motivation-left > :nth-child(1) {
+        width: 19rem;
+    }
+}
+
+/* large screens */
+@media screen and (max-width: 2500px) {
+    .motivation-container {
+        padding: 0 20rem;
+    }
+}
+
+/* large screens */
+@media screen and (max-width: 2399px) {
+    .motivation-container {
+        padding: 0 20rem;
+    }
+
+    .motivation-left > :nth-child(1) {
+        width: 16rem;
+    }
+}
 
 
+/* large screens */
+@media screen and (max-width: 2000px) {
+    .motivation-container {
+        padding: 0 6rem;
+    }
 
-/* medium-small screens */
+    .motivation-right {
+        margin-left: 14rem;
+    }
+}
+
+/* large screens */
+@media screen and (max-width: 1999px) {
+    .motivation-container {
+        padding: 0 2rem;
+    }
+}
+
+/* large screens */
+@media screen and (max-width: 1620px) {
+    .motivation-right {
+        margin-left: 11rem;
+    }
+}
+
+/* large screens */
+@media screen and (max-width: 1440px) {
+    .motivation-right {
+        margin-left: 0;
+    }
+}
+
+/* medium screens */
 @media screen and (max-width: 1280px) {
     .motivation-container {
         margin-top: -3rem;
@@ -134,19 +213,19 @@
 
     /* Rope */
     .motivation-left > :nth-child(2) {
-        width: 45rem;
-        height: 16rem;
+        width: 46rem;
+        height: 20rem;
     }
 
     /* Jogger */
     .motivation-left > :nth-child(3) {
-        width: 20.5rem;
+        width: 21.5rem;
         height: 21rem;
     }
 
     /* MMA */
     .motivation-left > :nth-child(4) {
-        width: 20.5rem;
+        width: 21.5rem;
         height: 21rem;
     }
 
@@ -162,10 +241,10 @@
 
 /* large screens */
 @media screen and (max-width: 1250px) {
-        /* Rope */
-        .motivation-left > :nth-child(2) {
-            width: 44rem;
-        }
+    /* Rope */
+    .motivation-left > :nth-child(2) {
+        width: 44rem;
+    }
 }
 
 /* large screens */
@@ -180,8 +259,7 @@
 @media screen and (max-width: 1024px) {
     /* Rope */
     .motivation-left > :nth-child(2) {
-        width: 42rem;
-        height: 17rem;
+        height: 19rem;
     }
 
     /* Jogger */
@@ -206,6 +284,7 @@
         width: 32rem;
         height: 18rem;
     }
+    
     /* Jogger */
     .motivation-left > :nth-child(3) {
         width: 16.5rem;

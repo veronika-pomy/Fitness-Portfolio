@@ -25,18 +25,6 @@
     text-align: center;
 }
 
-/* xx-large screens */
-@media screen and (max-width: 2560px) {}
-
-/* x-large screens */
-@media screen and (max-width: 1600px) {}
-
-/* large screens */
-@media screen and (max-width: 1440px) {}
-
-/* large screens */
-@media screen and (max-width: 1280px) {}
-
 /* medium-small screens */
 @media screen and (max-width: 1024px) {
     .experience {
