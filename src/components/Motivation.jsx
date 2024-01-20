@@ -60,9 +60,9 @@ const Motivation = () => {
                 Partners
             </span>
             <div className="motivation-partners-list">
-                <img src={partner1} alt="Logo of my first partner" />
-                <img src={partner2} alt="Logo of my second partner" />
-                <img src={partner3} alt="Logo of my third partner" />
+                <img src={partner1} alt="Logo of the first partner" />
+                <img src={partner2} alt="Logo of the second partner" />
+                <img src={partner3} alt="Logo of the third partner" />
             </div>
         </div>
     </div>

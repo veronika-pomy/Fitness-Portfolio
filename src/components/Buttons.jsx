@@ -8,10 +8,10 @@ const Buttons = () => {
       className='hero-btns'
     >
       <button className="btn">
-        <Link spy={true} span={'true'} smooth={true} to='pricing' >Get Started</Link>
+        <Link spy={true} span={'true'} smooth={true} to='pricing'>Get Started</Link>
       </button>
       <button className="btn">
-        <Link spy={true} span={'true'} smooth={true} to='programs' >Learn More</Link>
+        <Link spy={true} span={'true'} smooth={true} to='programs'>Learn More</Link>
       </button>
     </div>
   )

@@ -15,6 +15,7 @@ const Join = () => {
             console.log("Welcome email sent.");
             setError(false);
             setWelcome(true);
+            setEmail('');
         } else {
             setError(true);
             setWelcome(false);

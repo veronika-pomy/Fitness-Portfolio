@@ -23,7 +23,7 @@ const Testimonials = () => {
           <span>customers say</span>
           <img 
               src={rightArrow} 
-              alt="Right arrow for client testimonials" 
+              alt="Arrow for client testimonials" 
               className='carousel-arrow'
               onClick={
                 () => (

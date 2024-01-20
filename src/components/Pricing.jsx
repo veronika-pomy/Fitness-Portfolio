@@ -12,7 +12,7 @@ const Pricing = () => {
         <div className="blur pricing-blur-right"></div>
         <div className="pricing-header">
             <span>Begin </span>
-            <span className='outline-text'>your jounery </span>
+            <span className='outline-text'>your journey </span>
             <span>today</span>
         </div>
         <div className="pricing-plans">
