@@ -1,8 +1,5 @@
 import React from 'react';
-import img1 from '../assets/imgs/motivation-1.jpg';
-import img2 from '../assets/imgs/motivation-2.jpg';
-import img3 from '../assets/imgs/motivation-3.jpg';
-import img4 from '../assets/imgs/motivation-4.jpg';
+import motivation from '../assets/imgs/motivation.png';
 import check from '../assets/imgs/motivation-check.svg';
 import partner1 from '../assets/imgs/motivation-partner-logo-1.svg';
 import partner2 from '../assets/imgs/motivation-partner-logo-2.svg';
@@ -16,10 +13,7 @@ const Motivation = () => {
         id='about'
     >
         <div className="motivation-left">
-            <img src={img1} alt="A closeup of a dumbbell rack" />
-            <img src={img2} alt="Two people working out with a rope" />
-            <img src={img3} alt="A jogger taking a break" />
-            <img src={img4} alt="A child doing martial arts" />
+            <img src={motivation} alt="A collage of gym equipment and people working out" />
         </div>
         <div className="motivation-right">
             <span className="motivation-header">

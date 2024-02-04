@@ -1,61 +1,25 @@
 .motivation-container {
-    padding: 0 2rem;
+    padding: 2rem 2rem;
     display: flex;
-    gap: 2rem;
-    margin-bottom: 4rem;
+    gap: 4rem;
+    margin-bottom: 2rem;
 }
 
 .motivation-left {
     flex: 1 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    grid-auto-rows: 1fr;
 }
 
 .motivation-left > img {
-    object-fit: cover;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-/* Dumbbell rack */
-.motivation-left > :nth-child(1) {
-    width: 16rem;
-    height: 41rem;
-    grid-row: 1/3;
-}
-
-/* Rope */
-.motivation-left > :nth-child(2) {
-    width: 38rem;
-    height: 20rem;
-    grid-column: 2/4;
-}
-
-/* Jogger */
-.motivation-left > :nth-child(3) {
-    width: 18.5rem;
-    height: 20rem;
-    grid-row: 2;
-    grid-column: 2/3;
-}
-
-/* MMA */
-.motivation-left > :nth-child(4) {
-    width: 18.5rem;
-    height: 20rem;
-    grid-row: 2;
-    grid-column: 3/4;
+    max-width: 100%;
+    max-height: 85%;
 }
 
 .motivation-right {
     flex: 1 1;
     text-transform: uppercase;
-    gap: 3rem;
+    gap: 1.8rem;
     display: flex;
     flex-direction: column;
-    margin-left: 8rem;
 }
 
 .motivation-right > span {
@@ -105,83 +69,30 @@
 /* xx-large screens */
 @media screen and (max-width: 4000px) {
     .motivation-container {
-        padding: 0 65rem;
+        padding: 2rem 6rem;
     }
 }
-
-/* xx-large screens */
-@media screen and (max-width: 3700px) {
-    .motivation-container {
-        padding: 0 55rem;
-    }
-}
-
-/* xx-large screens */
-@media screen and (max-width: 3000px) {
-    .motivation-container {
-        padding: 0 40rem;
-    }
-}
-
-/* x-large screens */
-@media screen and (max-width: 2800px) {
-    .motivation-container {
-        padding: 0 33rem;
-    }
-}
-
-/* large screens */
-@media screen and (max-width: 2559px) {
-    .motivation-container {
-        padding: 0 15rem;
-    }
-
-    .motivation-left > :nth-child(1) {
-        width: 19rem;
-    }
-}
-
-/* large screens */
-@media screen and (max-width: 2500px) {
-    .motivation-container {
-        padding: 0 20rem;
-    }
-}
-
-/* large screens */
-@media screen and (max-width: 2399px) {
-    .motivation-container {
-        padding: 0 20rem;
-    }
-
-    .motivation-left > :nth-child(1) {
-        width: 16rem;
-    }
-}
-
 
 /* large screens */
 @media screen and (max-width: 2000px) {
     .motivation-container {
-        padding: 0 6rem;
-    }
-
-    .motivation-right {
-        margin-left: 14rem;
+        padding: 2rem 6rem;
     }
 }
 
 /* large screens */
 @media screen and (max-width: 1999px) {
     .motivation-container {
-        padding: 0 2rem;
+        padding: 2rem 2rem 0 4rem;
     }
 }
 
 /* large screens */
 @media screen and (max-width: 1620px) {
-    .motivation-right {
-        margin-left: 11rem;
+    .motivation-left > img {
+        max-width: 100%;
+        max-height: 100%;
+        /* object-fit: cover; */
     }
 }
 
@@ -194,44 +105,25 @@
 
 /* medium screens */
 @media screen and (max-width: 1280px) {
-    .motivation-container {
-        margin-top: -3rem;
-        flex-direction: column-reverse;
-    }
+
 
     .motivation-left {
-        grid-auto-rows: auto;
-        overflow: hidden;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
         margin-right: 2rem;
     }
 
-    /* Dumbbell rack */
-    .motivation-left > :nth-child(1) {
-        width: 0rem;
-    }
-
-    /* Rope */
-    .motivation-left > :nth-child(2) {
-        width: 46rem;
-        height: 20rem;
-    }
-
-    /* Jogger */
-    .motivation-left > :nth-child(3) {
-        width: 21.5rem;
-        height: 21rem;
-    }
-
-    /* MMA */
-    .motivation-left > :nth-child(4) {
-        width: 21.5rem;
-        height: 21rem;
+    motivation-left > img {
+        max-height: 60%;
+        max-width: 50%;
     }
 
     .motivation-right {
         margin-bottom: 3rem;
-        margin-left: 1rem;
+        gap: 0.5rem;
+    }
+
+    .motivation-right > div {
+        font-size: 2rem;
     }
 
     .motivation-right {
@@ -239,111 +131,18 @@
     }
 }
 
-/* large screens */
-@media screen and (max-width: 1250px) {
-    /* Rope */
-    .motivation-left > :nth-child(2) {
-        width: 44rem;
-    }
-}
-
-/* large screens */
-@media screen and (max-width: 1190px) {
-    /* Rope */
-    .motivation-left > :nth-child(2) {
-        width: 43rem;
-    }
-}
-
 /* medium-small screens */
 @media screen and (max-width: 1024px) {
-    /* Rope */
-    .motivation-left > :nth-child(2) {
-        height: 19rem;
-    }
-
-    /* Jogger */
-    .motivation-left > :nth-child(3) {
-        height: 21rem;
-    }
-
-    /* MMA */
-    .motivation-left > :nth-child(4) {
-        height: 21rem;
-    }
-
-    .motivation-right {
-        margin-left: 3rem;
-    }
-}
-
-/* x-small screens */
-@media screen and (max-width: 600px) {
-    /* Rope */
-    .motivation-left > :nth-child(2) {
-        width: 32rem;
-        height: 18rem;
-    }
-    
-    /* Jogger */
-    .motivation-left > :nth-child(3) {
-        width: 16.5rem;
-        height: 18rem;
-    }
-
-    /* MMA */
-    .motivation-left > :nth-child(4) {
-        width: 14rem;
-        height: 18rem;
-    }
-}
-
-/* x-small screens */
-@media screen and (max-width: 550px) {
-    /* Dumbbell rack */
-    .motivation-left > :nth-child(1) {
-        width: 0rem;
-    }
-
-    /* Jogger */
-    .motivation-left > :nth-child(3) {
-        width: 14rem;
-        height: 18rem;
-    }
-
-    /* MMA */
-    .motivation-left > :nth-child(4) {
-        width: 11rem;
-        height: 18rem;
+    .motivation-container {
+        margin-top: -3rem;
+        flex-direction: column-reverse;
     }
 }
 
 /* x-small screens */
 @media screen and (max-width: 500px) {
     .motivation-container {
-        padding-left: 1rem;
+        padding-left: 2rem;
         padding-right: 1rem;
-    }
-
-    /* Rope */
-    .motivation-left > :nth-child(2) {
-        width: 26rem;
-        height: 14rem;
-    }
-
-    /* Jogger */
-    .motivation-left > :nth-child(3) {
-        width: 26rem;
-        height: 26rem;
-    }
-
-    /* MMA */
-    .motivation-left > :nth-child(4) {
-        width: 0rem;
-        height: 0rem;
-    }
-
-    .motivation-right {
-        margin-left: 1rem;
     }
 }

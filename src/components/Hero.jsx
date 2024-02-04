@@ -25,7 +25,7 @@ const Hero = () => {
             <Buttons />
         </div>
         <div className="right-hero">
-          <button className="btn btn-main btn-contact">
+          <button className="btn btn-main">
             <Link spy={true} span={'true'} smooth={true} to='join' >Contact</Link>
           </button>
           <motion.div className="certificate" transition={transition} initial={{ right: '-1rem' }} whileInView={{ right: '5rem' }}>

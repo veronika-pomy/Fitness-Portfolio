@@ -29,16 +29,14 @@
 .btn-main {
     position: absolute;
     right: 3rem;
-    top: 2rem;
+    top: 1.5rem;
     color: var(--darkGrey);
+    cursor: pointer;
+    padding: 12px;
 }
 
 .btn-main:hover {
     color: var(--purple);
-}
-
-.btn-contact {
-    cursor: pointer;
 }
 
 .certificate {
