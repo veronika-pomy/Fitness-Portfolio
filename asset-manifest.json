@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/Personal-Trainer-Website/static/css/main.58d5be9f.css",
-    "main.js": "/Personal-Trainer-Website/static/js/main.41d078bb.js",
+    "main.css": "/Personal-Trainer-Website/static/css/main.b95d0333.css",
+    "main.js": "/Personal-Trainer-Website/static/js/main.1b64c9d1.js",
+    "static/media/motivation.png": "/Personal-Trainer-Website/static/media/motivation.1c82df7a51b47454681b.png",
     "static/media/headshot.png": "/Personal-Trainer-Website/static/media/headshot.b28afd2bcf9b7476532e.png",
     "static/media/testimonial-3.jpg": "/Personal-Trainer-Website/static/media/testimonial-3.5e368fb9a1d68dfa1781.jpg",
     "static/media/testimonial-1.jpg": "/Personal-Trainer-Website/static/media/testimonial-1.7feaa7d3890eb4fc12ae.jpg",
     "static/media/testimonial-2.jpg": "/Personal-Trainer-Website/static/media/testimonial-2.425aeedf98e1d32266ed.jpg",
-    "static/media/motivation-1.jpg": "/Personal-Trainer-Website/static/media/motivation-1.a1f100a4c6231e74c137.jpg",
-    "static/media/motivation-3.jpg": "/Personal-Trainer-Website/static/media/motivation-3.b9aba290ba55098a1d5a.jpg",
-    "static/media/motivation-2.jpg": "/Personal-Trainer-Website/static/media/motivation-2.c54191314bb6d4a9710f.jpg",
-    "static/media/motivation-4.jpg": "/Personal-Trainer-Website/static/media/motivation-4.43d360a145babd0b0c7f.jpg",
     "static/media/motivation-partner-logo-1.svg": "/Personal-Trainer-Website/static/media/motivation-partner-logo-1.d1dd3f157dac753fdeb308cdb74acf5d.svg",
     "index.html": "/Personal-Trainer-Website/index.html",
     "static/media/motivation-partner-logo-3.svg": "/Personal-Trainer-Website/static/media/motivation-partner-logo-3.d59ea7d6d15f452ad50676ab4d2c4472.svg",
@@ -17,11 +14,11 @@
     "static/media/right-long-solid.svg": "/Personal-Trainer-Website/static/media/right-long-solid.e4d764615738587a296394b9eb967d16.svg",
     "static/media/motivation-check.svg": "/Personal-Trainer-Website/static/media/motivation-check.04a6f0401f650bbd635911deddd7511f.svg",
     "static/media/plan-check.svg": "/Personal-Trainer-Website/static/media/plan-check.66535216377ae5e3bd2dca70ca1807b7.svg",
-    "main.58d5be9f.css.map": "/Personal-Trainer-Website/static/css/main.58d5be9f.css.map",
-    "main.41d078bb.js.map": "/Personal-Trainer-Website/static/js/main.41d078bb.js.map"
+    "main.b95d0333.css.map": "/Personal-Trainer-Website/static/css/main.b95d0333.css.map",
+    "main.1b64c9d1.js.map": "/Personal-Trainer-Website/static/js/main.1b64c9d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.58d5be9f.css",
-    "static/js/main.41d078bb.js"
+    "static/css/main.b95d0333.css",
+    "static/js/main.1b64c9d1.js"
   ]
 }
