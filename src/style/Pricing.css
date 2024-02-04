@@ -1,7 +1,7 @@
 .pricing-container {
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: -4rem;
     padding: 0 2rem;
     gap: 4rem;
     position: relative;
@@ -31,7 +31,7 @@
     text-transform: uppercase;
     font-style: oblique;
     padding-bottom: 3rem;
-    margin-top: -6rem;
+    margin-top: 2rem;
 }
 
 .pricing-plans {
@@ -110,6 +110,13 @@
     color: var(--darkGrey);
 }
 
+
+@media screen and (max-width: 1180px) {
+    .pricing-header {
+        font-size: 2.4rem;
+    }
+}
+
 /* medium-small screens */
 @media screen and (max-width: 1024px) { 
     .pricing-header {
@@ -120,7 +127,7 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 1rem;
-        margin-top: -11rem;
+        margin-top: -4rem;
     }
 
     .pricing-plans {
