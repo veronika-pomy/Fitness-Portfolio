@@ -20,7 +20,7 @@
 
 .app-container {
   background-image: url(../src/assets/imgs/background.png);
-  mix-blend-mode: overlay;
+  /* mix-blend-mode: overlay; */
   background-color: var(--appColor);
   display: flex;
   flex-direction: column;
