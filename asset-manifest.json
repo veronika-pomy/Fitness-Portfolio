@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Trainer-Website/static/css/main.164deb76.css",
-    "main.js": "/Personal-Trainer-Website/static/js/main.1b64c9d1.js",
+    "main.css": "/Personal-Trainer-Website/static/css/main.49bde5ad.css",
+    "main.js": "/Personal-Trainer-Website/static/js/main.ee39b834.js",
     "static/media/motivation.png": "/Personal-Trainer-Website/static/media/motivation.1c82df7a51b47454681b.png",
     "static/media/headshot.png": "/Personal-Trainer-Website/static/media/headshot.b28afd2bcf9b7476532e.png",
     "static/media/testimonial-3.jpg": "/Personal-Trainer-Website/static/media/testimonial-3.5e368fb9a1d68dfa1781.jpg",
@@ -14,11 +14,11 @@
     "static/media/right-long-solid.svg": "/Personal-Trainer-Website/static/media/right-long-solid.e4d764615738587a296394b9eb967d16.svg",
     "static/media/motivation-check.svg": "/Personal-Trainer-Website/static/media/motivation-check.04a6f0401f650bbd635911deddd7511f.svg",
     "static/media/plan-check.svg": "/Personal-Trainer-Website/static/media/plan-check.66535216377ae5e3bd2dca70ca1807b7.svg",
-    "main.164deb76.css.map": "/Personal-Trainer-Website/static/css/main.164deb76.css.map",
-    "main.1b64c9d1.js.map": "/Personal-Trainer-Website/static/js/main.1b64c9d1.js.map"
+    "main.49bde5ad.css.map": "/Personal-Trainer-Website/static/css/main.49bde5ad.css.map",
+    "main.ee39b834.js.map": "/Personal-Trainer-Website/static/js/main.ee39b834.js.map"
   },
   "entrypoints": [
-    "static/css/main.164deb76.css",
-    "static/js/main.1b64c9d1.js"
+    "static/css/main.49bde5ad.css",
+    "static/js/main.ee39b834.js"
   ]
 }
