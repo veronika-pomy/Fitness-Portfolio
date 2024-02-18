@@ -24,7 +24,8 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
-  overflow: hidden;
+  overflow: hidden; 
+  opacity: 0.99;
 }
 
 ::-webkit-scrollbar{
@@ -63,5 +64,5 @@
   /* blur effect */
   filter: blur(200px);
   /* always push to the back */
-  z-index: 1;
+  z-index: -1;
 }
