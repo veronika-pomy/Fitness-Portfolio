@@ -19,6 +19,7 @@
 }
 
 .app-container {
+  background: url('./assets/imgs/background.png');
   background-color: var(--appColor);
   display: flex;
   flex-direction: column;
@@ -62,5 +63,5 @@
   /* blur effect */
   filter: blur(200px);
   /* always push to the back */
-  z-index: -9;
+  z-index: 1;
 }
