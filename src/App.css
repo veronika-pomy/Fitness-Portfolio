@@ -19,7 +19,6 @@
 }
 
 .app-container {
-  mix-blend-mode: overlay;
   background-color: var(--appColor);
   display: flex;
   flex-direction: column;
