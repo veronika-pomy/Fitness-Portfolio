@@ -49,7 +49,7 @@ The design of this portfolio is crafted using the following tools:
 1. Clone the repository: `git clone https://github.com/veronika-pomy/Personal-Trainer-Website`
 2. Navigate to the project directory: `cd repo`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Start the development server: `npm run start`
 5. Open the website in your browser: `http://localhost:3000`
 
 ## Contributing
